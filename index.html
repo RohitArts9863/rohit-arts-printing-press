@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rohit Art's & Printing Press — quality printing, design and branding services." />
+    <title>Rohit Art's & Printing Press</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .phone-list { position:relative; z-index:1; display:flex; flex-direction:column; align-items:flex-start; gap:9px; margin-top:35px; }
+      .phone-list .phone { margin-top:0; }
+      .phone-list .second-phone { color:#f6c53d; border-bottom-color:#f6c53d; }
+      .footer-phones { display:flex; gap:14px; }
+      footer .footer-phones a { color:#cfc4b6; text-decoration:none; font-size:12px; }
+      .whatsapp-link { color:#177c4a; border-bottom-color:#177c4a; }
+      .whatsapp-button { position:relative; z-index:1; display:flex; align-items:center; gap:9px; width:max-content; max-width:100%; margin-top:22px; padding:13px 16px; background:#f6c53d; color:#1c1a18; text-decoration:none; font-size:14px; font-weight:700; border-radius:3px; }
+      .whatsapp-button b { font-size:21px; line-height:0; }
+      .whatsapp-button span { margin-left:6px; }
+      .floating-whatsapp { position:fixed; z-index:10; right:22px; bottom:22px; display:flex; align-items:center; gap:8px; padding:12px 16px; background:#25d366; color:#fff; border-radius:28px; text-decoration:none; box-shadow:0 7px 22px rgba(0,0,0,.24); font-size:13px; font-weight:700; }
+      .floating-whatsapp span { font-size:20px; line-height:0; }
+      @media (max-width:450px) { .footer-phones { flex-direction:column; gap:6px; } }
+    </style>
+  </head>
+  <body>
+    <div class="topbar">
+      <p>Creative ideas, beautifully printed.</p>
+      <span><a href="tel:9896371546">+91 98963 71546</a> &nbsp;|&nbsp; <a href="tel:7404871546">+91 74048 71546</a></span>
+    </div>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Rohit Art's home">
+        <span class="brand-mark">RA</span>
+        <span><strong>Rohit Art's</strong><small>PRINTING PRESS</small></span>
+      </a>
+      <button class="menu-button" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#work">Our Work</a>
+        <a href="#about">About</a>
+        <a class="nav-call" href="https://wa.me/919896371546?text=Hello%20Rohit%20Art%27s%20%26%20Printing%20Press%2C%20I%20would%20like%20a%20quote." target="_blank" rel="noopener">WhatsApp us <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> DESIGN · PRINT · DELIVER</p>
+          <h1>Making every<br /><em>impression</em> count.</h1>
+          <p class="intro">Your one-stop partner for sharp design, vibrant printing and branding that gets noticed.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="tel:9896371546">Call for a free quote <span>→</span></a>
+            <a class="text-link whatsapp-link" href="https://wa.me/919896371546?text=Hello%20Rohit%20Art%27s%20%26%20Printing%20Press%2C%20I%20would%20like%20to%20chat%20about%20a%20printing%20project." target="_blank" rel="noopener">WhatsApp chat <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Colourful printed paper graphic">
+          <div class="sun"></div>
+          <div class="paper paper-back"><span>YOUR<br />BRAND</span></div>
+          <div class="paper paper-front"><span>IDEAS<br /><i>IN</i><br />PRINT</span></div>
+          <div class="circle-label">EST. 2011<br /><b>✦</b><br />QUALITY PRINT</div>
+          <div class="swatch swatch-one"></div><div class="swatch swatch-two"></div>
+        </div>
+      </section>
+
+      <section class="trust-strip">
+        <p>CREATIVE SOLUTIONS FOR EVERY NEED</p>
+        <div class="trust-items"><span>Business Printing</span><i>✦</i><span>Custom Design</span><i>✦</i><span>Fast Turnaround</span><i>✦</i><span>Quality Finish</span></div>
+      </section>
+
+      <section class="services section" id="services">
+        <div class="section-heading">
+          <p class="eyebrow"><span></span> WHAT WE DO</p>
+          <h2>Print that speaks<br />for <em>you.</em></h2>
+          <p>From a single card to a full campaign, we put care and colour into every detail.</p>
+        </div>
+        <div class="service-grid">
+          <article><div class="service-icon">✦</div><h3>Design & Branding</h3><p>Logos, stationery and visuals with a look that is unmistakably yours.</p><a href="https://wa.me/919896371546?text=Hello%2C%20I%20want%20to%20enquire%20about%20design%20and%20branding." target="_blank" rel="noopener">Enquire <span>→</span></a></article>
+          <article><div class="service-icon icon-print">▤</div><h3>Commercial Printing</h3><p>Premium brochures, flyers, catalogues, cards and more, printed to impress.</p><a href="https://wa.me/919896371546?text=Hello%2C%20I%20want%20to%20enquire%20about%20commercial%20printing." target="_blank" rel="noopener">Enquire <span>→</span></a></article>
+          <article><div class="service-icon">▧</div><h3>Custom Products</h3><p>Personalised invites, calendars, packaging, labels and gift prints.</p><a href="https://wa.me/919896371546?text=Hello%2C%20I%20want%20to%20enquire%20about%20custom%20printing." target="_blank" rel="noopener">Enquire <span>→</span></a></article>
+        </div>
+      </section>
+
+      <section class="showcase" id="work">
+        <div class="showcase-title"><p class="eyebrow"><span></span> MADE WITH CARE</p><h2>Big ideas. <em>Beautifully made.</em></h2></div>
+        <div class="work-grid">
+          <div class="work-card card-coral"><span class="tag">Business Essentials</span><div class="business-card"><b>ANHAD</b><small>STUDIO &nbsp; / &nbsp; 2025</small></div><p>Cards & Stationery</p></div>
+          <div class="work-card card-blue"><span class="tag">Brand Identity</span><div class="poster"><b>PLAY<br />WITH<br /><i>COLOUR</i></b><span>✳</span></div><p>Creative Print</p></div>
+          <div class="work-card card-yellow"><span class="tag">Special Occasions</span><div class="invite"><b>together<br />is a beautiful<br />place to be.</b><small>R + S</small></div><p>Wedding Invitations</p></div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="about-number">01</div>
+        <div><p class="eyebrow"><span></span> WHY ROHIT ART'S</p><h2>Local craft.<br /><em>Lasting impact.</em></h2></div>
+        <div class="about-copy"><p>We combine the warmth of a neighbourhood print shop with a sharp eye for modern design. Tell us what you need; we’ll help make it real.</p><a class="button button-light" href="https://wa.me/919896371546?text=Hello%20Rohit%20Art%27s%20%26%20Printing%20Press%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener">Chat with us <span>↗</span></a></div>
+      </section>
+
+      <section class="contact">
+        <p class="eyebrow"><span></span> LET'S MAKE SOMETHING</p>
+        <h2>Ready when<br />your <em>idea</em> is.</h2>
+        <div class="phone-list"><a class="phone" href="tel:9896371546">+91 98963 71546 <span>↗</span></a><a class="phone second-phone" href="tel:7404871546">+91 74048 71546 <span>↗</span></a></div>
+        <a class="whatsapp-button" href="https://wa.me/919896371546?text=Hello%20Rohit%20Art%27s%20%26%20Printing%20Press%2C%20I%20would%20like%20to%20discuss%20a%20printing%20project." target="_blank" rel="noopener"><b>◔</b> Chat with us on WhatsApp <span>↗</span></a>
+        <p class="contact-note">Tap a number to call, or WhatsApp us to discuss your next printing project.</p>
+      </section>
+    </main>
+    <footer><a class="brand" href="#home"><span class="brand-mark">RA</span><span><strong>Rohit Art's</strong><small>PRINTING PRESS</small></span></a><p>Designed to make an impression.</p><span class="footer-phones"><a href="tel:9896371546">+91 98963 71546</a><a href="tel:7404871546">+91 74048 71546</a></span></footer>
+    <a class="floating-whatsapp" href="https://wa.me/919896371546?text=Hello%20Rohit%20Art%27s%20%26%20Printing%20Press%2C%20I%20would%20like%20a%20quote." target="_blank" rel="noopener" aria-label="Chat with Rohit Art's on WhatsApp"><span>◔</span><b>WhatsApp</b></a>
+    <script src="script.js"></script>
+  </body>
+</html>
